@@ -4,7 +4,7 @@ This file contains all the updates to our simple date reminder project.
 
 ---
 
-## Version v1.2.0 – August 21, 2025
+## Version v1.2.0 – September 14, 2026
 - Added feature to input dates and times. 
 - Changed first output statement
 - Fixed date and time mix up. 
