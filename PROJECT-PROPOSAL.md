@@ -1,73 +1,79 @@
-# JEI-8Sampaguita
+Project Proposal: Subscription Cost Splitter and Payment Tracker
 
-##Project title:  simple date reminder 
+1. Project Title
 
-##Project desc.: This program reminds the user about dates they have inputted in before hand so they wont forget it.
-##Features:
--Enter date
--Asks for another date (again and again up until the user's goal/s are/is satisfied) using a loop
--Relates it to a clock
--When the date arrives, the program may notify you
--Handles input value errors
+Billing tracker and payment distributor
 
-##How to run progam
-1. Make sure you have Python installed.
-2. Download 'Date_reminder.py'
-3. Open a terminal/command prompt.
-4. Run the program by either pressing run on the screen or f5 on your keyboard.
-5. Proceed with the program as it guides you.
+2. Problem Statement
 
-##example output
-Enter a date [mm/dd/yy]: 8/19/23
-Enter a reminder for 8/19/23: TEST CODE RUN
-Would you like to input another date? [y/n]: n
+Many people share subscription accounts with friends or family members to reduce expenses. However, dividing the total subscription cost equally and keeping track of each person's payments can be difficult. Some users may forget when they last paid or when their next payment is due. This project aims to solve these problems by creating a simple program that calculates each user's share of the subscription cost and records their payment information.
 
-*on date
+sources:
+https://www.reddit.com/r/Adulting/comments/1ouv5c9/whats_your_system_for_managing_bills/  (A user talks about how billing can become a hassle in adulthood)
+https://culi.app/articles/bill-payment-timing/ (Talks about how people can struggle with deadlines rather than the payment itself)
 
-Reminder for 'TEST CODE RUN' for today, set on [date when the reminder was made]
-Goodbye!
+3. Objectives
 
+- Calculate the total subscription cost per person based on the number of users sharing an account.
+- Record the number of people using a subscription.
+- Make subscription cost sharing more organized and convenient.
 
-##Contributors (before starting on the project):
--Legion [wrote this entire thing]
--Guevarra [responsible for this entire idea]
--Acorda [emotional support]
+4. Planned Features
 
-Simple Reminder Application
+- Subscription Details: Allow the user to enter the subscription name and total cost.
+- User Count: Ask how many people are sharing the subscription.
+- Automatic Cost Division: Divide the total subscription cost equally among all users.
+- Payment Records: Record each user's name, last payment date, and next payment date.
+- Payment Status: Indicate whether a user has paid or still needs to pay.
+- Menu System: Allow users to add subscriptions, view records, update payments, and exit the program.
 
-Problem Statement: Reminders are more likely to be forgotten in 3-4 hours. People in general forget information is 1 hour or more. This can affect learning, important meetings, or that wedding you were invited to a few months ago. In general, reminders are crucial for understanding and learning.
+5. Planned Input/Output
 
-Project Objectives: 
-To give important reminders for those that the user needs that is timely and relevant.
-To make time management more manageable in everyday learning.
+Input:
 
-Planned Features:
-An input date and time of reminder system
-A settings menu to toggle anything that the user may not like.
-A notification system for when the date of reminder comes
-A schedule system.
+- Subscription name
+- Total subscription cost
+- Number of users sharing the account
+- Next payment dates
+- Payment status
 
-Planned Inputs and Outputs:
-Input Date and time = Output reminder for said date and time
-Input settings toggle = output change of said setting for user convenience
-Input to show schedule = Output schedule with reminders
+Output:
 
-Logic Plan:
-START 
-Output “Hello! What do we want to do today?”
-Output “a. Schedule /n b. Reminder /n c. Settings”
-Input choice 
-If choice = a 
-Output schedule
-If choice = b
-Output “Enter date and time”
-Input dt
-#WHEN SAID DATE AND TIME COMES 
-Output “Ding dong! Reminder to do this.”
+- Subscription details
+- Total subscription cost
+- Number of users
+- Cost per person
+- Each user's payment history
+- Next payment date
 
-If choice = c 
-Output “What setting do you want to change?”
-Input settingchange
-Output “Okay!”
+Example:
 
-END
+If a subscription costs ₱600 per month and is shared by 4 people:
+
+- Total subscription cost: ₱600
+- Number of users: 4
+- Cost per person: ₱150
+
+The program will also display the next payment dat  and payment status.
+
+6. Logic Plan
+
+1. Start the program.
+2. Display the main menu.
+3. Ask the user to choose an option.
+4. If the user selects Add Subscription:
+   - Ask for the subscription name and total cost.
+   - Ask how many people will share the account.
+   - Calculate the cost per person by dividing the total cost by the number of users.
+   - Save the subscription and user records.
+5. If the user selects View Records, display the subscription details, cost per person, and payment records.
+6. If the user selects Update Payment, allow the user to update the last payment date, next payment date, and payment status.
+7. If the user selects Exit, terminate the program.
+8. Otherwise, display an invalid-choice message and return to the main menu.
+
+Formula:
+
+Cost per person = Total subscription cost ÷ Number of users
+
+The program must also check that the total cost and number of users are valid before performing the calculation. 
+
