@@ -1,83 +1,32 @@
-# JEI-8Sampaguita
+-Project title: Billing tracker and payment distributor
 
-PROJECT TITLE: Simple Reminder System
+-Description:
+This program asks the user for a monthly subscription they haven’t paid yet, splits the bill costs between an amount of people the user inputs, and allows the user to check records of payments. It also shows the user the next date their subscription is due. 
 
-OVERVIEW/DESCRIPTION: This application/program will make set reminders inputted by the user to further remind them of upcoming deadlines and important events. 
+-Features:
+ Subscription Details  -  Allow the user to enter the subscription name and total cost.
+ User Count  -  Ask how many people are sharing the subscription.
+ Automatic Cost Division  -  Divide the total subscription cost equally among all users.
+ Payment Records  -  Record each user's name, last payment date, and next payment date.
+ Payment Status:  -  Indicate whether a user has paid or still needs to pay.
+ Menu System  -  Allow users to add subscriptions, view records, update payments, and exit the program.
 
-FEATURES: 
-
-a. Input Reminder
-
-b. Add comments to reminder
-
-c. Settings 
-
-d. Cancel Reminder
-
-e. Exit
-
-HOW TO RUN/REQUIREMENTS:
-
-1. You must have simplereminder.py installed.
-
-2. Must have a working PC that can handle the application.
-
-3. Run the prgram.
-
-4. Pick the best option most necessary to the present situation.
-
-5. Exit the program once satisfied.
-
-SAMPLE INTERACTION/OUTPUT:
-
-Hello! please choose:
-
-a. Input Reminder.
-
-b. Add comments to reminder
-
-c. Settings
-
-d. Cancel Reminder
-
-e. Exit
-
->> a.
-
-What date do you want to set your reminder to?
-
->> 10/24/2026
-
-What time?
-
->> 2:30pm
-
-Amazing! Set Reminder for October 24, 2026 at 2:30 pm!
+-Requirements to run:
+Use python interpreters/IDE’s such as Vs code, PyCharm, etc., in order to make Json files and save records locally for efficiency
+Have a computer to run it
 
 
-Hello again! please choose:
+Sample interaction (not final, may differ from final project):
 
-a. Input Reminder.
+What monthly subscription do you have to pay by the end of the month
+>> Netflix
 
-b. Add comments to reminder
+How many people is the bill split between
+>> 2
 
-c. Settings
+How much is the bill in Philippine Pesos
+>> 1500
 
-d. Cancel Reminder
+Clear screen here
 
-e. Exit
-
->> e
-
-Bye bye!
-
-END.
-
-
-CONTRIBUTORS: 
-
-a. Iyyah Guevarra (wrote everything and though of this idea)
-
-b. Ezra Zach Legion (coder)
-
-c. Jan Edrick Acorda (Documentor)
+Pay by 11/01/2026, 750 each person
