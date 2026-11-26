@@ -59,16 +59,27 @@ The program will also display the next payment dat  and payment status.
 6. Logic Plan
 
 a. Start the program.
+
 b. Display the main menu.
+
 c. Ask the user to choose an option.
+
 d. If the user selects Add Subscription:
+
    - Ask for the subscription name and total cost.
+   
    - Ask how many people will share the account.
+   
    - Calculate the cost per person by dividing the total cost by the number of users.
+   
    - Save the subscription and user records.
+
 e. If the user selects View Records, display the subscription details, cost per person, and payment records.
+
 f. If the user selects Update Payment, allow the user to update the last payment date, next payment date, and payment status.
+
 g. If the user selects Exit, terminate the program.
+
 h. Otherwise, display an invalid-choice message and return to the main menu.
 
 Formula:
