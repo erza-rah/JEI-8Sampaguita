@@ -13,10 +13,10 @@ https://www.reddit.com/r/Adulting/comments/1ouv5c9/whats_your_system_for_managin
 https://culi.app/articles/bill-payment-timing/ (Talks about how people can struggle with deadlines rather than the payment itself)
 
 3. Objectives
-- The goal of this specfic Python app is to control the cost of a specfic subscription like Netflix, Youtube, Spotify, etc. among a group of people (2 or more). 
+- The goal of this specfic Python app is to split the cost of a specfic subscription like Netflix, Youtube, Spotify, etc. among a group of people (2 or more). 
 - Calculate the total subscription cost per person based on the number of users sharing an account. Usually per month.
 - Record the number of people using a subscription, record payment records month bt month or year by year, and remind users on when their subscriptions are due.
-- Make subscription cost among 2 or more people easier to follow among a series of months where teh subscription is active.
+- Make subscription cost among 2 or more people easier to follow among a series of months where the subscription is active.
 
 4. Planned Features
 
